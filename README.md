@@ -139,6 +139,8 @@ for (i32: x = 0; x < 10; x++) ? <- i32 {
 
 ## 🛠 Roadmap
 
+* [ ] If lexer, parser, ast does not work fix it
+* [ ] Make lexer, parser, ast faster
 * [ ] Full expression support (`+ - * /`)
 * [ ] Function arguments + returns
 * [ ] Better type system
