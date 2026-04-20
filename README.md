@@ -84,7 +84,6 @@ i32: x = 10?;
 
 ```c
 printfl:("Hello")?;
-printfl:("Value: %v", x)?;
 ```
 
 ---
