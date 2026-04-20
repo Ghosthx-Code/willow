@@ -1,8 +1,18 @@
 # 🌿 Willow
 
-### An Open Source Programming Language
+### A Lightweight Open Source Programming Language
 
-Willow is a lightweight experimental programming language with a simple syntax and custom parser.
+Willow is an experimental programming language featuring a custom **lexer**, **parser**, and **AST system**.
+It is designed to explore language design, compilation, and low-level control with a clean and minimal syntax.
+
+---
+
+## 🚀 Features
+
+* Custom-built lexer, parser, and AST
+* Simple and readable syntax
+* Experimental function and type system
+* Designed for future compiler/LLVM integration
 
 ---
 
@@ -22,7 +32,7 @@ make
 @define <willow>;
 
 func main() ? <- i32 {
-    printfl:( "Hello, world" )?;
+    printfl:("Hello, world")?;
 }
 ```
 
@@ -36,7 +46,9 @@ func main() ? <- i32 {
 @define <willow>;
 ```
 
-### 🔹 Function
+---
+
+### 🔹 Functions
 
 ```c
 func main() ? <- i32 {
@@ -44,11 +56,38 @@ func main() ? <- i32 {
 }
 ```
 
+With parameters:
+
+```c
+func greet(i32: x) ? <- i32 {
+    printfl:("%v", x)?;
+}
+```
+
+---
+
+### 🔹 Variables
+
+```c
+<data-type>: <name> = <value>?;
+```
+
+Example:
+
+```c
+i32: x = 10?;
+```
+
+---
+
 ### 🔹 Print
 
 ```c
 printfl:("Hello")?;
+printfl:("Value: %v", x)?;
 ```
+
+---
 
 ### 🔹 Input
 
@@ -56,60 +95,71 @@ printfl:("Hello")?;
 inputfl:("%v", x)?;
 ```
 
-### 🔹 Vars
-```c
-<data-type>: <name> = <value>?;
--- like
-i32: x = 10?;
-```
+---
 
-### 🔹 Making Functions
+### 🔹 Conditionals
+
 ```c
-func <name>(<vars>) ? <- <data-type> {
-    printfl:("%v", <vars>)?;
+if (x == 10) ? <- i32 {
+    printfl:("Hello %v!", x)?;
+} else ? <- i32 {
+    printfl:("Hello")?;
 }
 ```
 
-### 🔹 if, else if, else
-```C
-if (<name> == <value>) ? <- <output-type> {
-    printfl:("Hello %v!", <name>)?;
-}else ? <- <output-type> {
-    printfl:("Hello %v", <name>?;
-}
-```
+---
 
 ### 🔹 Loops
-```C
-while (*true) ? <- <return-type> {
-    printfl:("Hello %v!", <name>)?;
-}
 
--- for loops
-for (i32: x = 0; x < 10; x++) ? <- i32 ? <- i8* {
+#### While Loop
+
+```c
+while (*true) ? <- i32 {
+    printfl:("Looping...")?;
+}
+```
+
+#### For Loop
+
+```c
+for (i32: x = 0; x < 10; x++) ? <- i32 {
     printfl:("Number: %v", x)?;
 }
 ```
 
 ---
 
-## 🧠 Notes
+## 🧠 Language Notes
 
-* `?` is used to mark execution flow points
-* `<-` defines return types
-* `:` is used for function-style calls
-* `;` terminates statements
+* `?` → marks execution flow / control points
+* `<-` → defines return types
+* `:` → used for function-style calls and declarations
+* `;` → terminates statements
+
+---
+
+## 🛠 Roadmap
+
+* [ ] Full expression support (`+ - * /`)
+* [ ] Function arguments + returns
+* [ ] Better type system
+* [ ] LLVM backend / compiler
+* [ ] Standard library
 
 ---
 
 ## 🚧 Status
 
-⚠️ Willow is in early development. Features may change.
+⚠️ Willow is in **early development**.
+Expect breaking changes and incomplete features.
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome. For major changes, open an issue first.
+Contributions are welcome.
+
+* Open an issue for bugs or ideas
+* Submit a pull request for improvements
 
 ---
