@@ -1,0 +1,27 @@
+token_eof = EndOfFile
+token_semi = ;
+token_con = :
+token_break_fucn = ?
+token_Larrow = <-
+token_Rarrow = ->
+
+token_print = printfl
+token_input = inputfl
+
+token_Eq = =
+token_id = id
+token_if = if
+token_else_if = else if
+token_else = else
+token_func = func
+
+token_while = while
+token_for = for
+
+token_true = true
+token_false = false
+
+token_int3 = i32
+token_int6 = i64
+token_char = i8
+token_string = i8*

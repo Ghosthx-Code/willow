@@ -1,0 +1,14 @@
+
+                                    AST.                                                        Visitor.
+        Lexer.                     / -> |                                                       / -> |
+        / -> |                | -> | -> |                          Parser.                 | -> | -> | -> output
+file -> | -> | -> tokens ->-> |    \ -> | -> |                    / -> |                   |    \ -> |
+        \ -> |                | -> tokens -> | -> nodes_tokens -> | -> | -> nodes -> | -> -|
+                                                                  \ -> |             | -> -|    Compliler.
+                                                                                           |    / -> |
+                                                                                           | -> | -> | -> |
+                                                                                                \ -> |    |                 NASM.                   Ld.
+                                                                                                          |                 / -> |                 / -> |
+                                                                                                          | -> ./out.out -> | -> | -> ./out.out -> | -> | -> ./out
+                                                                                                          |                 \ -> |                 \ -> |
+                              

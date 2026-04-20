@@ -1,0 +1,8 @@
+@define <willow>
+
+func main() ? <- i32 {
+  printfl:("Hello world\n")?;
+
+  @ret 0;
+}
+

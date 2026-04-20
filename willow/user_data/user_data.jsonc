@@ -1,0 +1,8 @@
+{
+    "name": "<name>",
+    "email": "<email@gmail.com>",
+    "virsion": "0.0.0",
+    "files": [
+        "willow/main.q"
+    ]
+}

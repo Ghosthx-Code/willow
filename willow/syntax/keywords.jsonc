@@ -1,0 +1,36 @@
+{
+  "language": "willow",
+  "version": "0.1",
+  "maker": "ghosthx <ghosthx224@gmail.com>",
+  "imports": "<willow>, <math>, <auto>, <py>",
+  "semi": true,
+  "keywords": {
+    // Top-level definition
+    "directives": ["@define", "@return:", "@init", "@endInit"],
+    
+    // Declarations
+    "declaration": ["len", "func"],
+    
+    // Built-in Data Types
+    "types": ["int", "str", "list", "array"],
+    
+    // Control Flow
+    "flow": ["if", "else if", "else", "while", "for"],
+    
+    // Standard Library (Built-ins)
+    "io": ["printfl", "inputfl"],
+    
+    // Symbols & Terminators
+    "symbols": {
+        "line_terminator": "?",
+        "assignment": "=",
+        "separator": ":",
+        "return_arrow": "->",
+        "logic_ops": ["==", "<", "++", "*true", "*false"]
+    }
+  },
+  "notes": [
+    "The 'len' keyword acts as the primary token trigger for all variable allocations.",
+    "The '?' character is the mandatory statement terminator."
+  ]
+}
