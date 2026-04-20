@@ -18,7 +18,7 @@ Thank you for considering contributing to Willow! We appreciate your help in imp
 
 ## Code of Conduct
 
-By participating in this project, you agree to uphold our Code of Conduct. Please read it to understand the standards we expect from our contributors.
+By participating in this project, you agree to uphold our Code of Conduct. Please read it to understand the standards we expect from our contributors. Pls do not mess it all up
 
 ## Additional Information
 
