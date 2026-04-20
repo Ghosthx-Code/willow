@@ -47,13 +47,13 @@ func main() ? <- i32 {
 ### 🔹 Print
 
 ```c
-printfl:( "Hello" )?;
+printfl:("Hello")?;
 ```
 
 ### 🔹 Input
 
 ```c
-inputfl:( x )?;
+inputfl:("%v", x)?;
 ```
 
 ### 🔹 Vars
