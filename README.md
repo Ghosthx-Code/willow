@@ -56,6 +56,41 @@ printfl:( "Hello" )?;
 inputfl:( x )?;
 ```
 
+### 🔹 Vars
+```c
+<data-type>: <name> = <value>?;
+-- like
+i32: x = 10?;
+```
+
+### 🔹 Making Functions
+```c
+func <name>(<vars>) ? <- <data-type> {
+    printfl:("%v", <vars>)?;
+}
+```
+
+### 🔹 if, else if, else
+```C
+if (<name> == <value>) ? <- <output-type> {
+    printfl:("Hello %v!", <name>)?;
+}else ? <- <output-type> {
+    printfl:("Hello %v", <name>?;
+}
+```
+
+### 🔹 Loops
+```C
+while (*true) ? <- <return-type> {
+    printfl:("Hello %v!", <name>)?;
+}
+
+-- for loops
+for (i32: x = 0; x < 10; x++) ? <- i32 ? <- i8* {
+    printfl:("Number: %v", x)?;
+}
+```
+
 ---
 
 ## 🧠 Notes
@@ -78,7 +113,3 @@ inputfl:( x )?;
 Pull requests are welcome. For major changes, open an issue first.
 
 ---
-
-## 📜 License
-
-MIT License
