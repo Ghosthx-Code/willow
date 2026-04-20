@@ -1,7 +1,7 @@
 # willow
 ## open source lang
 
-syntax ```willow
+syntax ```c
 -- main import
 @define <willow>
 
