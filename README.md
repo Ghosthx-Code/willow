@@ -19,7 +19,7 @@ It is designed to explore language design, compilation, and low-level control wi
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/willow.git
+git clone https://github.com/Ghosthx-Code/willow.git
 cd willow
 make
 ```
