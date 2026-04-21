@@ -5,7 +5,7 @@
 Willow is an experimental programming language featuring a custom **lexer**, **parser**, and **AST system**.
 It is designed to explore language design, compilation, and low-level control with a clean and minimal syntax.
 
-***`Version` 0.0.1***
+***`Version` 0.0.2***
 
 ---
 
