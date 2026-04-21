@@ -23,7 +23,7 @@ It is designed to explore language design, compilation, and low-level control wi
 ```bash
 git clone https://github.com/Ghosthx-Code/willow.git
 gcc willow/build/oak.c -o oak
-sudo mv /usr/local/bin/oak
+sudo mv /usr/local/bin/
 cd willow
 make
 ```
