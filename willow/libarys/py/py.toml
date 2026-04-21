@@ -1,0 +1,8 @@
+[name]
+name="py"
+
+[version]
+version="0.0.1"
+
+[dep]
+dep="willow"

@@ -1,0 +1,11 @@
+[name]
+name="<name>"
+
+
+[version]
+version="0.0.0"
+
+
+[dep]
+# add lirbarys you need, like dep="willow, math, etc"
+dep="willow"
