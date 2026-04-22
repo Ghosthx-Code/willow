@@ -7,12 +7,7 @@ LIKE print, input, etc
 base = { @define, @init, @endInt, @ret }
 
 @define = {
-	"willow",
-	"math",
-	"py",
-	"socket",
-	"threading",
-	"colors"
+	"willow"
 }
 
 willow = {
@@ -26,3 +21,5 @@ willow = {
 	? <- 
 	? ->
 }
+
+for funcs if you have a var in the () you have to in the func make it mut* so you can change it and print it
