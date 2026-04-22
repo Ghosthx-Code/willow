@@ -1,0 +1,28 @@
+
+NEW SYNTAX 0.0.5 syntax 
+
+ALL functions are in willow exccept @define @init @endInt @ret
+LIKE print, input, etc
+
+base = { @define, @init, @endInt, @ret }
+
+@define = {
+	"willow",
+	"math",
+	"py",
+	"socket",
+	"threading",
+	"colors"
+}
+
+willow = {
+	printfl
+	inputfl
+	func
+	i32, i64, i8, i8*, ls
+	mut*, const
+	if, else if, else
+	while, for
+	? <- 
+	? ->
+}

@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
         
         char toml_dest[512];
         snprintf(toml_dest, sizeof(toml_dest), "%s/%s.toml", lib_path, lib);
-        run_cmd("cp ~/willow/lirbarys/folder/libary.toml \"%s\"", toml_dest, NULL);
+        run_cmd("cp ~/willow/libarys/folder/libary.toml \"%s\"", toml_dest, NULL);
     }
 
     return 0;
