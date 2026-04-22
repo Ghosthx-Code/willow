@@ -32,7 +32,7 @@ make
 
 ## ✨ Example
 
-```c
+```go
 @define <willow>;
 
 func main() ? <- i32 {
