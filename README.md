@@ -25,7 +25,7 @@ if you know *C/LLVM*, pls help
 ```bash
 git clone https://github.com/Ghosthx-Code/willow.git
 gcc willow/build/oak.c -o oak
-sudo mv /usr/local/bin/
+sudo mv ./oak /usr/local/bin/
 cd willow
 make
 ```
