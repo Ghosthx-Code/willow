@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// reads line by line and stores in a buffer, resizing as needed
+
 char* readFile(const char* filename) {
     FILE* file = fopen(filename, "r");
     if (!file) {

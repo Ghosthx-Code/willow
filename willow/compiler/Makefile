@@ -1,4 +1,4 @@
-exec    = ../compiler/willow.out
+exec    = ../compiler/willow
 flags   = -Wall -Wextra -g
 src     = $(shell find . -name '*.c' -type f)
 obj     = $(src:./%.c=o/%.o)
@@ -14,6 +14,6 @@ o/%.o: ./%.c
 
 clean:
 	@rm -rf o
-	@rm -f ../compiler/willow.out
+	@rm -f ../compiler/willow
 
 .PHONY: all build clean

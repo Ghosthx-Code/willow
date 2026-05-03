@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// makes the file and writes to the file
+
 char* writeFile(const char* filename, const char* data) {
     if (!data) {
         return NULL;
