@@ -20,6 +20,9 @@ willow = {
 	while, for
 	? <- 
 	? ->
+	--
 }
+
+-- commend
 
 for funcs if you have a var in the () you have to in the func make it mut* so you can change it and print it
