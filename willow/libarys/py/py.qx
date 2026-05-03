@@ -1,0 +1,9 @@
+@init <py>
+func print(i8*: x) ? <- i8* {
+    printfl:("%v", x) ?;
+}
+func input(i8*: x) ? <- i8* {
+    @ret:
+        inputfl:("%v", x)?;
+}
+@endInit

@@ -1,0 +1,20 @@
+[language]
+name="willow"
+version="0.0.5"
+authors="ghosthx <ghosthx224@gmail.com>"
+semi=true
+
+[language.keywords]
+directives="@define, @ret, @init, @endInit"
+datatypes="i32, i64, i8, i8*"
+flow="if, else if, else, while, for"
+print="printfl"
+input="inputfl"
+symbols="?, ==, =, !=, <, >, <=, >=, +, -, *, /, %, &&, ||, ;, ?;, ? <-, ? ->"
+bool="*true, *false"
+var="len"
+functions="func"
+comment="--"
+
+[language.keywords.notes]
+notes="len it used to make vars and everthing but loops/functions/if/else if/else, all vars a const by default, use mut* to make them mutable, you have to use @define <willow> for anything to work, but if it starts with @ you do not need to import anything to use it"

@@ -2,8 +2,9 @@
 #include "src/obj/io.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-int main() {
+int main(int argc, const char* argv[]) {
     const char* filename = "output.c";
     const char* data = "#include <stdio.h>\n\nint main() { \n printf(\"Hello, World!\\n\"); \n return 0; \n}";
 

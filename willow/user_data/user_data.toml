@@ -1,0 +1,15 @@
+[data]
+name="<name>"
+email="<email@gmail.com>"
+version="0.0.0"
+files="<project_dir>/willow/*.qx" 
+
+[dependencies]
+C="gcc14.2.0+"
+python="3.12.6+"
+Makefile=true
+
+[os]
+linux=true
+macos=false
+windows=false

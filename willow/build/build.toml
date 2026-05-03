@@ -1,0 +1,9 @@
+[build.main]
+name="oak"
+use="oak --build-new <dir_name>" # like cargo
+
+[build.main.deps]
+deps="gcc"
+
+[build.main.compile]
+command="gcc ./build/oak.c -o oak && mv oak /usr/local/bin/oak"

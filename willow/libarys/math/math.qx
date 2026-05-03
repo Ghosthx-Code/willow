@@ -1,0 +1,12 @@
+@init <math>
+
+func pow(i64: x, i64: y) ? <- i64 {
+    @ret x**y?;
+}
+
+func cir(i64; x) ? <- i64 {
+    i64: total = (x**x)*3.14?;
+    @ret total?;
+}
+
+@endInit
